@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "workbox:injectmanifest": "workbox injectManifest ./workbox-config.js"
+    "workbox:generatesw": "workbox generateSW ./workbox-config-gsw.js",
+    "workbox:injectmanifest": "workbox injectManifest ./workbox-config-im.js"
   },
   "private": true,
   "dependencies": {
